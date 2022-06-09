@@ -4,12 +4,12 @@
 //###############################################################
 let nun1, nun2, result: number;
 
-nun1 = parseInt(prompt(' يا ياسين ادخل العدد الذي تريده '));
-nun2 = parseInt(prompt('يا ياسين من فضلك ادخل العدد الذي تريده '));
+nun1 = parseInt(prompt('ادخل اعدد'));
+nun2 = parseInt(prompt('ادخل اعدد من فضلك '));
 result = nun1 + nun2;
-
+if(result==0){console.log("العدد منعدم")};
 if (result < 0) {
-  console.log('ضرب العددين سالب ');
+  console.log('االعدد سالب ');
 } else {
-  console.log('العدد موجب ');
+  console.log('العدد موجب');
 }
